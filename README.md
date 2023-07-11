@@ -14,7 +14,7 @@ The  github_tutorial package dependencies can be installed via conda, and this p
 
 Create and install conda package:
 
-`cd path_to_first_github_tutorial_dirctory_with_environment_yml_file`'
+`cd path_to_first_github_tutorial_dirctory_with_environment_yml_file`
 
 `conda env create -f environment.yml`
 
