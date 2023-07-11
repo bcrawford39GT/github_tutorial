@@ -13,6 +13,7 @@ This is a basic github repository to show a Github structure, docstrings, and te
 The  github_tutorial package dependencies can be installed via conda, and this package tagged in conda via pip install:
 
 Create and install conda package:
+
 `cd path_to_first_github_tutorial_dirctory_with_environment_yml_file`'
 
 `conda env create -f environment.yml`
