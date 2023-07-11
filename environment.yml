@@ -1,0 +1,8 @@
+name: github_tutorial
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - pytest
+  - pip
