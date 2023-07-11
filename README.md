@@ -6,7 +6,7 @@ This is a basic github repository to show a Github structure, docstrings, and te
 
 ### Documentation
 
-### To be added in the future.
+To be added in the future.
 
 ### Installation
 
