@@ -25,3 +25,37 @@ Create and install conda package:
 Note: If you update the conda package, you may have to redo the pip install.  Without doing this, it may allow incompatable versions of the dependencies to be installed, etc.:
 
 `pip install -e .`
+
+### Run the example
+
+This is an example of the supplimentary functions in the utils directory (github_tutorial/utils) and the main function in the main_functions directory (github_tutorial/main_functions).
+
+The example is located here 'examples_to_run/examples.py'. The instructions to run it are provided below:
+
+`cd examples_to_run`
+
+`python examples.py`
+
+
+### Run the test cases using pytest
+
+Each python file has it's own test functions scripts located here 'github_tutorial/tests', which are used to ensure proper functionallity when making changes to the code, or if python dependancies alter how some functions behave.
+
+Run all the tests:
+
+`cd github_tutorial/tests`
+
+`pytest`
+
+Run individual test on 'test_math.py':
+
+`cd github_tutorial/tests`
+
+`pytest test_math.py`
+
+Run individual test on 'test_main_functions.py':
+
+`cd github_tutorial/tests`
+
+`pytest test_main_functions.py`
+
