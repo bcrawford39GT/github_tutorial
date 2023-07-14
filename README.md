@@ -36,6 +36,12 @@ The example is located here 'examples_to_run/examples.py'. The instructions to r
 
 `python examples.py`
 
+### Run the interactive example in Visual Studios Code (VScode) 
+
+This is the same example but running it as an interactive job (i.e., like a Jupyter notebook). The example is located here 'examples_to_run/interactive_examples.py'.  
+
+When using Visual Studios Code (VScode), the '# %%' above each section makes it a cell, which can be run individually by holding shift and pressing enter.
+
 
 ### Run the test cases using pytest
 
