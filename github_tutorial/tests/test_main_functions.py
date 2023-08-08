@@ -2,7 +2,7 @@ import numpy as np
 import pytest
 from github_tutorial.tests.base_test import BaseTest
 #from github_tutorial.utils.math import (add_2_numbers, multiple_of_2_numbers)
-from github_tutorial.main_functions.main_functions  import (math_function_class,  _add_1_to_value)
+from github_tutorial.main_functions.main_functions  import (MathFunctionClass,  _add_1_to_value)
 
 class TestMainFunction(BaseTest):
     def test__add_1_to_value_int(self):
@@ -67,11 +67,11 @@ class TestMainFunction(BaseTest):
 
             value = _add_1_to_value(val_0)
 
-    def test_math_function_class(self):
+    def test_MathFunctionClass(self):
         val_0 = 1
         val_1 = 2
 
-        math_variable = math_function_class(val_0, val_1)
+        math_variable = MathFunctionClass(val_0, val_1)
 
         assert np.isclose(math_variable.added_numbers, 3)
         assert isinstance(math_variable.added_numbers, (int, float))
@@ -80,24 +80,24 @@ class TestMainFunction(BaseTest):
         assert np.isclose(math_variable.add_1_to_both_numbers_and_multiply(), 6)
         assert isinstance(math_variable.add_1_to_both_numbers_and_multiply(), (int, float))
     
-    def test_math_function_class_val_0_str(self):
+    def test_MathFunctionClass_val_0_str(self):
         with pytest.raises(
             TypeError,
-            match=f"ERROR: In the 'math_function_class' class, the value_0 is a {type('value_0')} "
+            match=f"ERROR: In the 'MathFunctionClass' class, the value_0 is a {type('value_0')} "
             f"and not a int or float",
         ):
             val_0 = '1.5'
             val_1 = 2.0
 
-            math_variable = math_function_class(val_0, val_1)
+            math_variable = MathFunctionClass(val_0, val_1)
 
-    def test_math_function_class_val_1_str(self):
+    def test_MathFunctionClass_val_1_str(self):
         with pytest.raises(
             TypeError,
-            match=f"ERROR: In the 'math_function_class' class, the value_1 is a {type('value_1')} "
+            match=f"ERROR: In the 'MathFunctionClass' class, the value_1 is a {type('value_1')} "
             f"and not a int or float",
         ):
             val_0 = 1.5
             val_1 = '2.0'
 
-            math_variable = math_function_class(val_0, val_1)
+            math_variable = MathFunctionClass(val_0, val_1)
