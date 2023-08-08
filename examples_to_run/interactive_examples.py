@@ -1,7 +1,7 @@
 
 # to make each cell add '# %%' to the above section 
 # %%
-from github_tutorial.main_functions.main_functions  import math_function_class 
+from github_tutorial.main_functions.main_functions  import MathFunctionClass 
 
 # %%
 # enter the two (2) values to use
@@ -9,11 +9,11 @@ entered_value_0 = 100
 entered_value_1 = 2
 
 # %%
-# set the math_function_class
-math_variable = math_function_class(entered_value_0, entered_value_1)
+# set the MathFunctionClass
+math_variable = MathFunctionClass(entered_value_0, entered_value_1)
 
 # %%
-# print the math_variable (i.e., math_function_class) and list its type
+# print the math_variable (i.e., MathFunctionClass) and list its type
 print(f"\n")
 print(f"math_variable = {math_variable}")
 print(f"type(math_variable) = {type(math_variable)}\n")
