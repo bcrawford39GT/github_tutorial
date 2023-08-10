@@ -1,7 +1,5 @@
 """Standard math function utilities."""
 
-import numpy as np
-
 def add_2_numbers(no_0, no_1):
     """Add 2 numbers together.
 
