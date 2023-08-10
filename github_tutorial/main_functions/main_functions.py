@@ -1,4 +1,3 @@
-import numpy as np
 from github_tutorial.utils.math import (add_2_numbers, multiple_of_2_numbers)
 from warnings import warn
 

@@ -45,15 +45,20 @@ This is the same example but running it as an interactive job (i.e., like a Jupy
 When using Visual Studios Code (VScode), the '# %%' above each section makes it a cell, which can be run individually by holding shift and pressing enter.
 
 
-## Run the test cases using pytest
+## Run the test cases (unit tests) using pytest
 
-Each python file has it's own test functions scripts located here 'github_tutorial/tests', which are used to ensure proper functionallity when making changes to the code, or if python dependancies alter how some functions behave.
+The github_tutorial software tests the installation using `pytest <https://docs.pytest.org/en/stable/>`_. 
+The unit tests via ``pytest`` ensure that the code is build properly, running correctly and producing 
+accurate results.  
+
+To perform these tests (unit tests) for the github_tutorial package, please run the following commands 
+from the ``github_tutorial/tests`` directory:
 
 Run all the tests:
 
 `cd github_tutorial/tests`
 
-`pytest`
+`pytest -v`
 
 Run individual test on 'test_math.py':
 
@@ -67,3 +72,15 @@ Run individual test on 'test_main_functions.py':
 
 `pytest test_main_functions.py`
 
+## Build the documentation (docs)
+
+Building these HTML files locally via sphinx, which will allow you to access them with your 
+local internet browsing application or HTML viewer (chrome, safari, VScode, etc.). 
+The HTML files will be located in the ``docs/_build/html`` directory after they are built.  
+
+The github_tutorial utilizes `sphinx <https://www.sphinx-doc.org/en/master/index.html>`_ to construct the documentation. 
+The user can build the documentation locally by executing the following command from the ``docs`` directory:
+    
+`conda activate github_tutorial`
+    
+`make html`
