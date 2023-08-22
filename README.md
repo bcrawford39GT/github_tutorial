@@ -44,6 +44,19 @@ This is the same example but running it as an interactive job (i.e., like a Jupy
 
 When using Visual Studios Code (VScode), the '# %%' above each section makes it a cell, which can be run individually by holding shift and pressing enter.
 
+## Static analysis for type errors
+
+This code has type hinting embedded in it.  This will help a static analysis
+too, like mypy, detect type mismatches that would result in runtime errors.  To
+install mypy, run:
+
+    conda install mypy
+
+To run mypy, you can pass an argument to a single source source file or to the
+top-level directory of a package.  For example:
+
+    mypy github_examples
+
 
 ## Run the test cases (unit tests) using pytest
 
