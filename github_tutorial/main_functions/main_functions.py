@@ -1,7 +1,8 @@
 from github_tutorial.utils.math import (add_2_numbers, multiple_of_2_numbers)
 from warnings import warn
+from typing import Union
 
-def _add_1_to_value(initial_value):
+def _add_1_to_value(initial_value : Union[int,float]) -> Union[int,float]:
     """Add 1 to to any value.
 
     This function adds 1 to the entered value. 
@@ -16,18 +17,6 @@ def _add_1_to_value(initial_value):
     final_value: int or float
         The initial value plus 1.
     """
-    if not isinstance(initial_value, (int, float)):
-        raise TypeError(
-            f"ERROR: In the '_add_1_to_value' function, the {'initial_value'} "
-            f"is a {type(initial_value)} and not a int or float."
-            )
-
-    if initial_value >= 100:
-        warn(
-            f"WARNING: In the '_add_1_to_value' function, the {'initial_value'} >= 100 "
-            f"({'initial_value'} = {initial_value}). Are you sure you want to use a large number?"   
-            )
-
 
     final_value = initial_value + 1
 
@@ -71,24 +60,12 @@ class MathFunctionClass:
     """
     def __init__(
         self,
-        value_0,
-        value_1
+        value_0: Union[int, float],
+        value_1: Union[int, float]
     ):
-        
-        if not isinstance(value_0, (int, float)):
-            raise TypeError(
-                f"ERROR: In the 'MathFunctionClass' class, the {'value_0'} "
-                f"is a {type(value_0)} and not a int or float."
-                )
-        
-        if not isinstance(value_1, (int, float)):
-            raise TypeError(
-                f"ERROR: In the 'MathFunctionClass' class, the {'value_1'} "
-                f"is a {type(value_1)} and not a int or float."
-                )
 
-        self.value_0 = value_0
-        self.value_1 = value_1 
+        self.value_0 : Union[int,float]  = value_0
+        self.value_1 : Union[int, float] = value_1 
 
         self.added_numbers = add_2_numbers(self.value_0, self.value_1)
         self.multiplied_numbers = multiple_of_2_numbers(self.value_0, self.value_1)
