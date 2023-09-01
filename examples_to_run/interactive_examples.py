@@ -1,7 +1,7 @@
 
 # to make each cell add '# %%' to the above section 
 # %%
-from github_tutorial.main_functions.main_functions  import MathFunctionClass 
+from python_github_tutorial.main_functions.main_functions  import MathFunctionClass 
 
 # %%
 # enter the two (2) values to use

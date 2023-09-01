@@ -2,7 +2,7 @@
 Quick Start
 -----------------------
 
-This Quick Start guide for the github_tutorials repository is provided to help users 
+This Quick Start guide for the python_github_tutorials repository is provided to help users 
 start using the sofware for the most common needs, without an extensive code and 
 documentation review.
 

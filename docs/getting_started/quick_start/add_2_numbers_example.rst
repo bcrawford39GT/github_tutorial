@@ -8,11 +8,11 @@ In general, you will add a detailed description for the example.
 All the classes and functions should not be listed in the examples. 
 Only the functions that the users will typically use should be listed here. 
 
-Import and use the github_tutorial ``add_2_numbers`` function.
+Import and use the python_github_tutorial ``add_2_numbers`` function.
 
 .. code:: ipython3
 
-    from github_tutorial.utils.math  import add_2_numbers
+    from python_github_tutorial.utils.math  import add_2_numbers
 
     # Enter the two (2) input variables numbers.
     no_0 = 1

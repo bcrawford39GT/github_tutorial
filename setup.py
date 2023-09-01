@@ -7,8 +7,8 @@ from distutils.spawn import find_executable
 from setuptools import find_packages, setup
 
 #########################################
-NAME = "github_tutorial"
-VERSION = "0.0.1"
+NAME = "python_github_tutorial"
+VERSION = "0.0.0"
 ISRELEASED = True
 if ISRELEASED:
     __version__ = VERSION
@@ -42,8 +42,8 @@ def proto_procedure():
 def compile_proto(protoc):
     protoc_command = [
         protoc,
-        "-I=github_tutorial/main_math_functions/",
-        "--python_out=github_tutorial/main_math_functions/",
+        "-I=python_github_tutorial/main_math_functions/",
+        "--python_out=python_github_tutorial/main_math_functions/",
         "compound.proto",
     ]
     subprocess.call(protoc_command)
@@ -59,20 +59,20 @@ if __name__ == "__main__":
         long_description=__doc__,
         author="",
         author_email="",
-        url="https://github.com/bcrawford39/github_tutorial",
-        download_url="https://github.com/bcrawford39/github_tutorial/tarball/{}".format(
+        url="https://github.com/pace-gatech/python_github_tutorial",
+        download_url="https://github.com/pace-gatech/python_github_tutorial/tarball/{}".format(
             __version__
         ),
         packages=find_packages(),
         package_data={
-            "github_tutorial/": [
+            "python_github_tutorial/": [
             ]
         },
-        package_dir={"github_tutorial": "github_tutorial"},
+        package_dir={"python_github_tutorial": "python_github_tutorial"},
         include_package_data=True,
         license="MIT",
         zip_safe=False,
-        keywords="github_tutorial/",
+        keywords="python_github_tutorial/",
         classifiers=[
             "Development Status :: 0 - 1",
             "Intended Audience :: Science/Research",

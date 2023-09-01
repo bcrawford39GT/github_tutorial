@@ -2,7 +2,7 @@
 Units
 =====
 
-In this github_tutorial package, the input and output values are unitless (i.e., no units were used).  
+In this python_github_tutorial package, the input and output values are unitless (i.e., no units were used).  
 
 If units were used in your software, you should specify them here and how they are utilized. 
 This includes specifiying the unitless variables, so the user knows. A good code will test for 

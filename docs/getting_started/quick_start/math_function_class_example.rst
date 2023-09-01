@@ -8,11 +8,11 @@ the example.
 All the classes and functions should not be listed in the examples. 
 Only the functions that the users will typically use should be listed here. 
 
-Import and use the github_tutorial ``MathFunctionClass`` class.  
+Import and use the python_github_tutorial ``MathFunctionClass`` class.  
 
 .. code:: ipython3
 
-    from github_tutorial.main_functions.main_functions  import MathFunctionClass 
+    from python_github_tutorial.main_functions.main_functions  import MathFunctionClass 
 
     # enter the two (2) values to use
     entered_value_0 = 100

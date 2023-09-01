@@ -1,8 +1,8 @@
 import numpy as np
 import pytest
-from github_tutorial.tests.base_test import BaseTest
-#from github_tutorial.utils.math import (add_2_numbers, multiple_of_2_numbers)
-from github_tutorial.main_functions.main_functions  import (MathFunctionClass,  _add_1_to_value)
+from python_github_tutorial.tests.base_test import BaseTest
+#from python_github_tutorial.utils.math import (add_2_numbers, multiple_of_2_numbers)
+from python_github_tutorial.main_functions.main_functions  import (MathFunctionClass,  _add_1_to_value)
 
 class TestMainFunction(BaseTest):
     def test__add_1_to_value_int(self):
