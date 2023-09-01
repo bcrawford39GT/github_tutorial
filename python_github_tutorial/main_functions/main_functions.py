@@ -1,4 +1,4 @@
-from github_tutorial.utils.math import (add_2_numbers, multiple_of_2_numbers)
+from python_github_tutorial.utils.math import (add_2_numbers, multiple_of_2_numbers)
 from warnings import warn
 
 def _add_1_to_value(initial_value):

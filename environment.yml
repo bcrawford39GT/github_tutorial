@@ -1,4 +1,4 @@
-name: github_tutorial
+name: python_github_tutorial
 channels:
   - conda-forge
   - defaults

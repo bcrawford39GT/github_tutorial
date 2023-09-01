@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
-from github_tutorial.tests.base_test import BaseTest
-from github_tutorial.utils.math import (add_2_numbers, multiple_of_2_numbers)
+from python_github_tutorial.tests.base_test import BaseTest
+from python_github_tutorial.utils.math import (add_2_numbers, multiple_of_2_numbers)
 
 
 class TestMath(BaseTest):

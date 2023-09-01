@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# github_tutorial documentation build configuration file, created
+# python_github_tutorial documentation build configuration file, created
 # on Wed Aug 8 2023.
 #
 
@@ -59,9 +59,9 @@ nbsphinx_prolog = r"""
 
   <div class="admonition note">
       <p>This page was generated from
-        <a class="reference external" href="https://github.com/bcrawford39GT/github_tutorial/blob/{{ env.config.release|e }}/{{ docname|e }}">{{ docname|e }}</a>.
+        <a class="reference external" href="https://github.com/pace-gatech/python_github_tutorial/blob/{{ env.config.release|e }}/{{ docname|e }}">{{ docname|e }}</a>.
         <br>Interactive online version:
-        <a href="https://mybinder.org/v2/gh/bcrawford39GT/github_tutorial/github_tutorial/master?filepath={{ docname|e }}"><img alt="Binder badge" src="https://mybinder.org/badge_logo.svg" style="vertical-align:text-bottom"></a>.
+        <a href="https://mybinder.org/v2/gh/pace-gatech/python_github_tutorial/main?filepath={{ docname|e }}"><img alt="Binder badge" src="https://mybinder.org/badge_logo.svg" style="vertical-align:text-bottom"></a>.
       </p>
     </div>
 
@@ -114,7 +114,7 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = "github_tutorial"
+project = "python_github_tutorial"
 author = ""
 copyright = ""
 
@@ -260,7 +260,7 @@ html_split_index = False
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "github_tutorial_doc"
+htmlhelp_basename = "python_github_tutorial_doc"
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -298,7 +298,7 @@ latex_master_doc = "indexlatex"
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-latex_documents = [(latex_master_doc, "github_tutorial.tex", project, author, "howto")]
+latex_documents = [(latex_master_doc, "python_github_tutorial.tex", project, author, "howto")]
 latex_show_urls = "footnote"
 latex_show_pagerefs = False
 

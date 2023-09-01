@@ -1,10 +1,10 @@
-GitHub Tutorial
-===============
+Python GitHub Tutorial
+======================
 
 .. image:: https://img.shields.io/badge/license-MIT-blue.svg
     :target: http://opensource.org/licenses/MIT
 
-This ``github_tutorial`` repository is an example of how to design
+This ``python_github_tutorial`` repository is an example of how to design
 and structure a GitHub repository, 
 and an example of how to structure and document Python code
 
@@ -72,6 +72,6 @@ input variables, attributes, methods, and outputs/output variables.
     	:maxdepth: 2
 
 	reference/units
-	reference/citing_github_tutorial
+	reference/citing_python_github_tutorial
 
 

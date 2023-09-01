@@ -1,4 +1,4 @@
-"""test functions for github_tutorial"""
+"""test functions for python_github_tutorial"""
 import pytest
 
 class BaseTest:

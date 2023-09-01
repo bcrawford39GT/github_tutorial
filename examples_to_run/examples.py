@@ -1,4 +1,4 @@
-from github_tutorial.main_functions.main_functions  import MathFunctionClass 
+from python_github_tutorial.main_functions.main_functions  import MathFunctionClass 
 
 # enter the two (2) values to use
 entered_value_0 = 100
