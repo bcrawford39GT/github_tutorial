@@ -4,6 +4,7 @@ channels:
   - defaults
 dependencies:
   - python
+  - numpy
   - pytest
   - pip
   - mock
