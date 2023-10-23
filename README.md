@@ -47,7 +47,7 @@ When using Visual Studios Code (VScode), the '# %%' above each section makes it 
 
 ## Run the test cases (unit tests) using pytest
 
-The python_github_tutorial software tests the installation using `pytest <https://docs.pytest.org/en/stable/>`_. 
+The python_github_tutorial software tests the installation using [pytest](https://docs.pytest.org/en/stable/). 
 The unit tests via ``pytest`` ensure that the code is build properly, running correctly and producing 
 accurate results.  
 
@@ -78,7 +78,7 @@ Building these HTML files locally via sphinx, which will allow you to access the
 local internet browsing application or HTML viewer (chrome, safari, VScode, etc.). 
 The HTML files will be located in the ``docs/_build/html`` directory after they are built.  
 
-The python_github_tutorial utilizes `sphinx <https://www.sphinx-doc.org/en/master/index.html>`_ to construct the documentation. 
+The python_github_tutorial utilizes [sphinx](https://www.sphinx-doc.org/en/master/index.html) to construct the documentation. 
 The user can build the documentation locally by executing the following command from the ``docs`` directory:
     
 `conda activate python_github_tutorial`
